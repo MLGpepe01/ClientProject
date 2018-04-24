@@ -1,5 +1,8 @@
 
-html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6,h7,h8 {font-family: "Times New roman", sans-serif}
 #hunt{
     position: center;
+}
+.content{
+    margin-top:100px;
 }
