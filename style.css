@@ -1,8 +1,23 @@
 
-html,body,h1,h2,h3,h4,h5,h6,h7,h8 {font-family: "Times New roman", sans-serif}
+h3,h5,h7,h9,h10{
+    font-family: "Times New roman";
+     font-size:25px;
+     color: Black ;
+    font-weight: bolder;
+}
 #hunt{
     position: center;
 }
 .content{
     margin-top:100px;
+}
+.expect{
+    font-family: "Times New roman";
+    font-size: 20px;
+}
+h4,h6,h8{
+    color:red;
+      font-family: "Times New roman";
+      font-weight: bold;
+      font-style: italic;
 }

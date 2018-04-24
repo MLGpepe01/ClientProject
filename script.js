@@ -29,7 +29,10 @@ $(document).ready(function() {
   function displayResult(response) {
     // write a function that will append an <img> to the body with the
     // URL provided in the parameters
-    $('.gallery').html('<h1>'+ response[0].title + '</h1>');
+    $('h4').html('<h1>'+ response[0].title + '</h1>');
+      $('h6').html('<h1>'+ response[0].company + '</h1>');
+        $('h8').html('<h1>'+ response[0].location + '</h1>');
+          $('.expect').html('<p>'+ response[0].description + '</p>');
     console.log(response[0].title);
      console.log(response[0].company);
   }
