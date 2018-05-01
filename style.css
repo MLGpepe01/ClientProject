@@ -2,14 +2,14 @@
 h3,h5,h7,h9,h10{
     font-family: "Times New roman";
      font-size:25px;
-     color: Black ;
+     color: black ;
     font-weight: bolder;
 }
 #hunt{
     position: center;
 }
 .content{
-    margin-top:100px;
+    margin-top:10px;
 }
 .expect{
     font-family: "Times New roman";
@@ -20,4 +20,17 @@ h4,h6,h8{
       font-family: "Times New roman";
       font-weight: bold;
       font-style: italic;
+}
+.apply{
+    text-align: left;
+}
+#kek{
+    text-align: left;
+}
+#fff{
+  background-color:teal;  
+}
+.navbar{
+    background-color:teal;
+    
 }

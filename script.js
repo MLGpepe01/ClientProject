@@ -14,9 +14,9 @@ $(document).ready(function() {
            
   //     },
   //   }); 
-     
-     
-     
+
+
+
   function InternshipURLWithSearchTerm(searchTerm) {
     // write a function that will return a url for the Internship API with
     // the searchTerm provided in the parameters
@@ -33,6 +33,8 @@ $(document).ready(function() {
       $('h6').html('<h1>'+ response[0].company + '</h1>');
         $('h8').html('<h1>'+ response[0].location + '</h1>');
           $('.expect').html('<p>'+ response[0].description + '</p>');
+          $('.apply').html('<p>'+ response[0].how_to_apply + '</p>');
+        
     console.log(response[0].title);
      console.log(response[0].company);
   }
