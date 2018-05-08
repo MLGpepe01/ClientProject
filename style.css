@@ -2,7 +2,7 @@
 h3,h5,h7,h9,h10{
     font-family: "Times New roman";
      font-size:25px;
-     color: black ;
+     color: black;
     font-weight: bolder;
 }
 #hunt{
@@ -15,15 +15,27 @@ h3,h5,h7,h9,h10{
     font-family: "Times New roman";
     font-size: 20px;
 }
-h4,h6,h8{
-    color:red;
+h4,h6,h8, #jobtype{
+      color:red;
       font-family: "Times New roman";
       font-weight: bold;
       font-style: italic;
 }
-.apply{
-    text-align: left;
+label{
+    font-size: 25px;
+    font-weight:bolder;
 }
+
+#box{
+  border:solid;
+  border-style: dotted;
+  border-color: pink;
+  border-width: 10px;
+}
+/*#form{*/
+/*border:solid;*/
+/*}*/
+
 #kek{
     text-align: left;
 }

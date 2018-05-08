@@ -29,14 +29,21 @@ $(document).ready(function() {
   function displayResult(response) {
     // write a function that will append an <img> to the body with the
     // URL provided in the parameters
-    $('h4').html('<h1>'+ response[0].title + '</h1>');
-      $('h6').html('<h1>'+ response[0].company + '</h1>');
-        $('h8').html('<h1>'+ response[0].location + '</h1>');
-          $('.expect').html('<p>'+ response[0].description + '</p>');
-          $('.apply').html('<p>'+ response[0].how_to_apply + '</p>');
+    var randomobject= Math.floor(Math.random()*response.length);
+    
+    $('h4').html('<h1>'+ response[randomobject].title + '</h1>');
+      $('h6').html('<h1>'+ response[randomobject].company + '</h1>');
+         $('#jobtype').html('<h1>'+ response[randomobject].type + '</h1>');
+        $('h8').html('<h1>'+ response[randomobject].location + '</h1>');
+          $('.expect').html('<p>'+ response[randomobject].description + '</p>');
+          $('.apply').html('<p>'+ response[randomobject].how_to_apply + '</p>');
+          
+            $('.info').html('<p>'+ response[randomobject].company_url + '</p>');
+              $('.origin').html('<p>' + response[randomobject].url + '</p>');
+               
         
-    console.log(response[0].title);
-     console.log(response[0].company);
+    console.log(response[randomobject].title);
+     console.log(response[randomobject].company);
   }
   
 
@@ -46,7 +53,7 @@ $(document).ready(function() {
       method: "GET",
       dataType: "jsonp",
       success: function(response) {
-        // var random = Math.floor(Math.random() * 20);
+        // var random = Math.floor(Math.random() * 2randomobject);
         // var url = response.data[random].images.original.url;
      //   console.log(response);
         displayResult(response);
