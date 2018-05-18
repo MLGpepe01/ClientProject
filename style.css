@@ -1,4 +1,11 @@
-
+body{
+    background-image: url('')
+}
+#logo{
+    height: 750px;
+    width:750px;
+    background-image: url('Logo.png');
+}
 h3,h5,h7,h9,h10{
     font-family: "Times New roman";
      font-size:25px;
@@ -7,6 +14,10 @@ h3,h5,h7,h9,h10{
 }
 #hunt{
     position: center;
+}
+#resume{
+    height:300px;
+    width: 300px;
 }
 .content{
     margin-top:10px;

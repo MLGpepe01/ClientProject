@@ -37,7 +37,6 @@ $(document).ready(function() {
         $('h8').html('<h1>'+ response[randomobject].location + '</h1>');
           $('.expect').html('<p>'+ response[randomobject].description + '</p>');
           $('.apply').html('<p>'+ response[randomobject].how_to_apply + '</p>');
-          
             $('.info').html('<p>'+ response[randomobject].company_url + '</p>');
               $('.origin').html('<p>' + response[randomobject].url + '</p>');
                
