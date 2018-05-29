@@ -2,8 +2,8 @@ body{
     background-image: url('')
 }
 #logo{
-    height: 750px;
-    width:750px;
+    height: 400px;
+    width:400px;
     background-image: url('Logo.png');
 }
 h3,h5,h7,h9,h10{
